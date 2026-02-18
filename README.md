@@ -15,7 +15,7 @@
   <a href="https://github.com/Recusive/Orbit-Release/releases/latest">
     <img src="https://img.shields.io/github/downloads/Recusive/Orbit-Release/total?style=flat-square&color=e8927c" alt="Downloads" />
   </a>
-  <img src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows-333?style=flat-square" alt="Platform" />
+  <img src="https://img.shields.io/badge/platform-macOS%20(Apple%20Silicon)-333?style=flat-square" alt="Platform" />
 </p>
 
 ---
@@ -25,8 +25,8 @@
 | Platform | Architecture | Download |
 |----------|-------------|----------|
 | macOS | Apple Silicon (M1+) | [`.dmg`](https://github.com/Recusive/Orbit-Release/releases/latest) |
-| macOS | Intel | [`.dmg`](https://github.com/Recusive/Orbit-Release/releases/latest) |
-| Windows | x64 | [`.exe`](https://github.com/Recusive/Orbit-Release/releases/latest) |
+
+> Windows and Linux support is coming soon.
 
 Or visit the [**Releases**](https://github.com/Recusive/Orbit-Release/releases) page for all versions.
 
@@ -47,8 +47,7 @@ Orbit is a desktop code editor with a deeply integrated AI assistant. It combine
 
 ## Requirements
 
-- **macOS** 10.15 (Catalina) or later
-- **Windows** 10 or later
+- **macOS** 11.0 (Big Sur) or later — Apple Silicon (M1+)
 
 ## Feedback
 
