@@ -30,80 +30,64 @@
 |----------|-------------|----------|
 | macOS | Apple Silicon (M1+) | [`.dmg`](https://github.com/Recusive/Orbit-Release/releases/latest) |
 
-> Windows and Linux support is coming soon.
+> Windows and Linux support coming soon.
 
-Or visit the [**Releases**](https://github.com/Recusive/Orbit-Release/releases) page for all versions.
+All versions available on the [**Releases**](https://github.com/Recusive/Orbit-Release/releases) page.
 
 ---
 
 ## What is Orbit?
 
-Every AI coding tool is a chat window bolted onto a 1980s file editor. The developer's job has changed — we review and direct, not write — but the tools haven't.
+The developer's job has changed. AI agents write most of the code now — your job is to direct, review, steer, and design. But every tool still puts a text editor front and center.
 
-Orbit is the first development environment designed from scratch for a world where AI agents write 80%+ of the code and your job is to direct, review, steer, and design.
-
-### Orbit is NOT
-
-- A code editor with AI bolted on (that's Cursor)
-- A terminal with a better UI (that's Warp)
-- A chat window that generates apps (that's Bolt/v0)
-- A VS Code fork (that's Cursor/Windsurf/Void)
-- An IDE with an AI sidebar (that's every tool from 2024)
-
-### Orbit IS
-
-- A **command center** for managing AI coding agents
-- A **review surface** where you approve, reject, and steer agent output
-- A **visual canvas** where you design UIs that become real code
-- A **unified workspace** where your tools live via MCP integrations
-- The only app open on your screen when you're building
+Orbit is a development environment built from scratch for this new workflow. Not an IDE with AI bolted on. Not a terminal with a chat window. A dedicated workspace where you orchestrate agents, review their output, and build visually.
 
 ---
 
-## Core Features
+## What You Get Today
 
-### Agent Dashboard & Steering
-See all agents working, their progress, cost, and status. Redirect an agent mid-task with a nudge — no killing, no restarting. Watch the agent's plan update in real time.
+### AI Agent
+Chat-driven coding agent with full access to your filesystem, terminal, and git. Conversational context across your entire codebase. Rewind to any point in a conversation and fork a new direction.
 
-### Review-First Workflow
-Changes grouped by feature, not by file. Accept or reject at the hunk level. The agent explains *why* it made changes, not just *what* it changed. Diffs are the default view, not source code.
+### Code Editor
+CodeMirror 6 with syntax highlighting, language server support, and custom themes. Dark and light mode.
 
-### Visual Canvas
-Draw UI frames on a spatial canvas. Tag AI to fill them. Export as real, production-ready code that uses your project's actual components. Design visually, ship real code.
+### Embedded Browser
+Live preview of your running app directly inside Orbit. No switching to Chrome.
 
-### Live Preview & Inspector
-Embedded browser shows your running app. Click any element to inspect its component, props, and state. Annotate the live UI to direct agents — point at things instead of describing them.
+### Source Control
+Built-in git integration with diff view. See what changed, stage, commit.
 
-### Provider-Agnostic
-Bring your own API keys. Use Claude, GPT, Gemini, or any model. When one has a bad day, switch with one click. Every new model that launches makes Orbit more valuable.
+### Terminal
+Integrated terminal with full PTY support. Run your dev server, install packages, anything.
 
-### Code Editor, Terminal & Git
-Full CodeMirror 6 editor with language server support. Integrated terminal. Git operations built in. File explorer. Everything you need when you do want to write code.
+### File Explorer
+Navigate and manage your project files without leaving the workspace.
 
-### MCP Integrations
-Connect Slack, Linear, GitHub, and more — with native UI panels in Orbit, not just chat commands.
+### Component Builder
+Browse, customize, and export shadcn/ui components. Live preview with props inspector.
 
 ---
 
-## How Orbit Compares
+## The Vision
 
-| | Cursor | Claude Code | Warp | Bolt.new | **Orbit** |
-|---|---|---|---|---|---|
-| Primary paradigm | Editor-first | Terminal-first | Terminal-first | Chat-first | **Review-first** |
-| Default view | Text editor | Terminal | Terminal + editor | Chat + preview | **Agent dashboard** |
-| Visual building | None | None | None | Text-to-app | **Canvas: draw → code** |
-| Agent steering | None | Kill & restart | None | None | **Nudge mid-task** |
-| Multi-agent | None | Manual (tmux) | Oz (cloud) | None | **Built-in orchestration** |
-| Model support | Multi-model | Claude only | Multi-model | Multi-model | **Provider-agnostic** |
+Orbit is early. Here's where it's headed:
+
+- **Agent steering** — Redirect agents mid-task without killing them. See their plan, nudge when they go wrong.
+- **Review-first workflow** — Changes grouped by feature, not file. Per-hunk accept/reject. Agent explains *why*, not just *what*.
+- **Multi-agent orchestration** — Run parallel agents with conflict detection and a mission control dashboard.
+- **Visual canvas** — Draw UI frames, tag AI to fill them, export production code using your project's components.
+- **Provider-agnostic models** — Bring your own keys for Claude, GPT, Gemini, or any model. Switch with one click.
+- **MCP integrations** — Slack, Linear, GitHub with native UI panels — not just chat commands.
+- **Live annotation** — Point at elements in the running app to direct agents visually.
 
 ---
 
 ## Built With
 
 - [Tauri 2](https://tauri.app/) — Rust backend, native desktop performance
-- [React 19](https://react.dev/) + TypeScript — Modern frontend
+- [React 19](https://react.dev/) + TypeScript
 - [CodeMirror 6](https://codemirror.net/) — Code editing
-- [Claude Agent SDK](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/sdk) — Agent orchestration
 
 ## Requirements
 
