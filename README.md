@@ -34,10 +34,6 @@
 
 Or visit the [**Releases**](https://github.com/Recusive/Orbit-Release/releases) page for all versions.
 
-## Auto-Update
-
-Orbit includes built-in auto-update. When a new version is available, you'll see a notification inside the app. Updates are signed and verified.
-
 ---
 
 ## What is Orbit?
