@@ -34,6 +34,10 @@
 
 All versions available on the [**Releases**](https://github.com/Recusive/Orbit-Release/releases) page.
 
+<p align="center">
+  <img src="release.png" width="800" alt="Orbit — agent chat, code editor, file explorer" />
+</p>
+
 ---
 
 ## What is Orbit?
