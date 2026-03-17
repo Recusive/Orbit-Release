@@ -5,11 +5,8 @@
 <h1 align="center">Orbit</h1>
 
 <p align="center">
-  <strong>The agent-native development environment.</strong>
-</p>
-
-<p align="center">
-  Direct agents. Review changes. Design visually. Ship without switching tools.
+  <strong>Built for the way software gets built now.</strong><br/>
+  AI-native development environment. Full context. Zero switching. One agent across everything you build with.
 </p>
 
 <p align="center">
@@ -55,22 +52,25 @@ Orbit is a development environment built from scratch for this new workflow. Not
 ## What You Get Today
 
 ### AI Agent
-Chat-driven coding agent with full access to your filesystem, terminal, and git. Conversational context across your entire codebase. Rewind to any point in a conversation and fork a new direction.
+Chat-driven coding agent with full access to your filesystem, terminal, and git. Two engines — Claude and a multi-provider engine with 200+ models across 20+ providers. Subagents for parallel task execution. Slash commands, custom skills, and a built-in permission system. Rewind to any point in a conversation and fork a new direction.
+
+### Skills Marketplace
+Browse and install community-built skills directly inside Orbit. Search, filter, scope skills to a project or globally, and see what's already installed.
 
 ### Code Editor
 CodeMirror 6 with syntax highlighting, language server support, and custom themes. Dark and light mode.
 
 ### Embedded Browser
-Live preview of your running app directly inside Orbit. No switching to Chrome.
+Live preview of your running app directly inside Orbit. Agent takes screenshots — it visually sees your running app. Click-to-select: click any element, then tell the agent what to change.
 
 ### Source Control
-Built-in git integration with diff view. See what changed, stage, commit.
+Built-in git integration with diff view. Live diff stats in the top bar. Branch picker with search and inline creation.
 
 ### Terminal
 Integrated terminal with full PTY support. Run your dev server, install packages, anything.
 
 ### File Explorer
-Navigate and manage your project files without leaving the workspace.
+Navigate and manage your project files. Inline image previews. SVGs render by default with a source toggle.
 
 ### Component Builder
 Browse, customize, and export shadcn/ui components. Live preview with props inspector.
@@ -85,7 +85,6 @@ Orbit is early. Here's where it's headed:
 - **Review-first workflow** — Changes grouped by feature, not file. Per-hunk accept/reject. Agent explains *why*, not just *what*.
 - **Multi-agent orchestration** — Run parallel agents with conflict detection and a mission control dashboard.
 - **Visual canvas** — Draw UI frames, tag AI to fill them, export production code using your project's components.
-- **Provider-agnostic models** — Bring your own keys for Claude, GPT, Gemini, or any model. Switch with one click.
 - **MCP integrations** — Slack, Linear, GitHub with native UI panels — not just chat commands.
 - **Live annotation** — Point at elements in the running app to direct agents visually.
 
