@@ -14,7 +14,7 @@
   <a href="https://github.com/Recusive/Orbit-Release/releases/latest"><img src="https://img.shields.io/github/downloads/Recusive/Orbit-Release/total?label=Downloads&color=e8927c" alt="Downloads" /></a>
   <img src="https://img.shields.io/badge/macOS-Apple_Silicon-000000?logo=apple&logoColor=white" alt="Platform" />
   <img src="https://img.shields.io/badge/Tauri-2.0-24C8D8?logo=tauri&logoColor=white" alt="Tauri" />
-  <img src="https://img.shields.io/badge/Claude-Agent_SDK-F97316?logo=anthropic&logoColor=white" alt="Claude" />
+  <img src="https://img.shields.io/badge/Claude-Powered-F97316?logo=anthropic&logoColor=white" alt="Claude" />
   <img src="https://img.shields.io/badge/License-Proprietary-6B7280" alt="License" />
 </p>
 
